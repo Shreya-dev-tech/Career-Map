@@ -84,7 +84,7 @@ h1, h2, h3, p, label {
 
 <div class="website-subtitle">
     Your Guide Towards a Bright Future
-    Discover. Define Your Futher ✨
+    Discover. Define Your Future ✨
 </div>
 
 """, unsafe_allow_html=True)
