@@ -14,7 +14,7 @@ field = st.selectbox("Select Your Field" , [" Select Your Field" ,"Engineering",
 branch = st.text_input("Enter your Branch")
 year = st.selectbox("Select your Year", [" Select Your Year" ,"1st Year", "2nd Year", "3rd Year", "4th Year"])
 prompt = f""""You are Career Planner Want career guide and skills to be developed for user branch {branch} with proper year {year} wise proper plan .
-Give skills according to the {branch} required for Interview and company placements {branch}{year}{field} """
+Give skills according to the {branch} required for Interview and company placements {branch}{year}{field}  provide plan for entier rest year ex. If user is in 1year then provide plan for 1,2,3,4 years and if user is in 2year then provide for 2,3,4 years plan """
 
 if st.button("Get Career Plan"):
     with st.spinner("Generating Career Plan..."):
